@@ -114,7 +114,7 @@ p {
 	color: var(--hero-text-color);
 }
 
-/* ***************  Menu*************** */
+/* ***************  Menu *************** */
 .menu-btn {
 	outline: thin solid var(--first-color);
 	border: 0;
@@ -182,6 +182,13 @@ p {
 	.menu a:hover {
 		background-color: transparent;
 	}
+}
+
+/* *************** Progress *************** */
+progress {
+	width: 100%;
+	height: 1rem;
+	background-color: var(--gray-color);
 }
 
 /* *************** Utilities *************** */
